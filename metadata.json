@@ -1,0 +1,8 @@
+{
+  "name": "OmniSystem POS",
+  "description": "A comprehensive restaurant POS system with inventory, orders, and real-time dashboard capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
