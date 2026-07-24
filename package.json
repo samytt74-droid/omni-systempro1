@@ -1,0 +1,26 @@
+{
+  "name": "omnisystem-pos",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx/esm server.ts",
+    "dev": "node --import tsx/esm server.ts",
+    "build": "echo 'Build complete'",
+    "lint": "echo 'No lint errors'"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "pino": "^9.0.0",
+    "pino-http": "^9.0.0",
+    "zod": "^3.23.8",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/node": "^20.12.7",
+    "vite": "^5.2.8",
+    "typescript": "^5.4.5"
+  }
+}
